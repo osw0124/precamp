@@ -1,0 +1,16 @@
+/* 전체 선택자 */
+*{
+    color: rebeccapurple;
+}
+/* 태그 선택자 */
+div{
+    color: aquamarine;
+}
+/* class 선택자 */
+.container {
+    color: bisque;
+}
+/* id 선택자 */
+#userInfo {
+    color: blueviolet;
+}

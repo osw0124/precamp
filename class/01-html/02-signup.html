@@ -1,22 +1,16 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>    
-    <title>회원가입</title>
-    <!-- <style>
-        .listup{
-            color: red;
-            border: 1px solid gray;
-        }
-    </style>
-    <link href="./index.css" rel="stylesheet"/> -->
+    <link href="./02-signup.css" rel="stylesheet">
+    <title>회원가입</title>    
 </head>
 <body>
     <h2>회원가입</h2>
     <!-- 정보입력 -->
-    <input type="text" placeholder="이메일을 입력해 주세요."><br><br>
-    <input type="text" placeholder="이름을 입력해 주세요."><br><br>
-    <input type="password" placeholder="비밀번호를 입력해 주세요."><br><br>
-    <input type="password" placeholder="비밀번호를 다시 입력해 주세요."><br><br>
+    <input class="red" type="text" placeholder="이메일을 입력해 주세요."><br><br>
+    <input class="red" type="text" placeholder="이름을 입력해 주세요."><br><br>
+    <input class="blue" type="password" placeholder="비밀번호를 입력해 주세요."><br><br>
+    <input class="blue" type="password" placeholder="비밀번호를 다시 입력해 주세요."><br><br>
     <br><br>
     <!-- 지역선택 -->
     <select>
@@ -34,7 +28,7 @@
     <!-- 약관동의 -->
     <input type="checkbox"> 이용약관 개인정보 수집 및 이용, 마케팅 활용 선택에 모두 동의합니다.
     <hr>
-    <button>가입하기</button>
+    <button id="submit">가입하기</button>
     <!-- <a style="background-color: #ffee55 color #ffee55;"></a> -->
 </body>
 </html>

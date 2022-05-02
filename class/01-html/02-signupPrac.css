@@ -1,0 +1,22 @@
+/* 전체 선택자 */
+*{
+    color: rebeccapurple;
+}
+/* 태그 선택자 */
+div{
+    color: aquamarine;
+}
+/* class 선택자 */
+.container {
+    color: bisque;
+}
+/* id 선택자 */
+#userInfo {
+    color: blueviolet;
+}
+/* 가상 선택자 */
+#submit:hover {
+    background-color: aquamarine;
+}
+
+/* id는 중복돼면 안됀다.: https://www.codeit.kr/community/threads/3268 */

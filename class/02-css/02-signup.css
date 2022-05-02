@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+.parentBox {
+    /* position: absolute; */
+    width: 670px;
+    height:  960px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+}
+
+.title {
+
+}

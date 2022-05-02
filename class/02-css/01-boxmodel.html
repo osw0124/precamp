@@ -14,20 +14,28 @@
             margin: 3px;
             background-color: yellow;
         }
-        .border-box {
-            box-sizing: border-box;
-        }
-        .content-box {
-            box-sizing: content-box;
+        .parentBox {
+            width: 500px;
+            height: 320px;
+            border: 2px solid blue;
+            display: flex;
+            /* flex-direction: row;
+            justify-content: center;
+            align-items: center; */
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            background-color: green;
         }
     </style>
 </head>
 <body style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
-    <div class="border-box">박스 1</div>
-    <!-- 기본 값이 content-box다. -->
-    <div>박스 2</div>
-    <div class="content-box">박스 3</div>
-    <!-- <div>박스 4</div>
-    <div>박스 5</div>     -->
+    <div>박스 1</div>
+    <div class="parentBox">
+        <div>박스 2</div>
+        <div>박스 3</div>
+        <div>박스 4</div>
+    </div>    
+    <div>박스 5</div>    
 </body>
 </html>

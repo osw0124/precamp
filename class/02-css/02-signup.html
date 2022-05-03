@@ -1,17 +1,43 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>    
-    <link rel="stylesheet" href="./02-signup.css">
+  <head>
+    <link rel="stylesheet" href="./02-signup.css" />
     <title>회원가입</title>
-</head>
-<body >
+  </head>
+  <body>
     <div class="parentBox">
-        <div>
-            <h1 class="title">회원가입을 위해</h1>
-            <h1 class="title">정보를 입력해주세요</h1>
+      <div class="contentBox">
+        <!-- 제목 -->
+        <div class="titleBox">
+          <span class="title">회원가입을 위해</span>
+          <span class="title">정보를 입력해주세요</span>
         </div>
+        <br /><br />
+        <!-- 정보입력 -->
+        <div class="infoBox">
+          <span class="infoBox__minititle">*이메일</span>
+          <input class="infoBox__emailinputBox" type="text" />
+          <span class="infoBox__minititle">*이름</span>
+          <input class="infoBox__infoinputBox" type="text" />
+          <span class="infoBox__minititle">*비밀번호</span>
+          <input class="infoBox__infoinputBox" type="password" />
+          <span class="infoBox__minititle">*비밀번호 확인</span>
+          <input class="infoBox__infoinputBox" type="password" />
+        </div>
+        <br />
+        <!-- 성별 선택 -->
+        <div class="radioBox">
+          <input class="radiocheckBox" type="radio" name="gender" /> 여성
+          <input class="radiocheckBox" type="radio" name="gender" /> 남성
+        </div>
+        <br />
+        <div class="confirmBox">
+          <input type="checkBox" />이용약관 개인정보 수집 및 이용, 마케팅 활용
+          선택에 모두 동의합니다.
+        </div>
+      </div>
+      <div class="line"></div>
+      <button>가입하기</button>
     </div>
-    
-    
-</body>
+  </body>
 </html>

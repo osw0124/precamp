@@ -36,10 +36,11 @@ const sendNumber = () => {
     printBox.innerText = confirmNumber;
 
     let time = 5;
+    let timer = null; //clearInterval 사용 시 발생할 수 있는 실행 오류 방지를 위해서 null을 먼저 할당한다.
     let timerBox = document.getElementById("printTimer");
     let confirmButton = document.getElementById("confirmButton");
 
-    let timer = setInterval(function () {
+    timer = setInterval(function () {
       console.log("작동중");
       if (time >= 0) {
         const min = String(Math.floor(time / 60)).padStart(2, "0");

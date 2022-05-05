@@ -19,37 +19,39 @@ body {
 .wrapper__header {
   width: 100%;
   height: 48px;
+  display: flex;
+  flex-direction: column;
 }
-.header__title__wrapper {
+.contents__title {
   width: 100%;
   height: 20px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  border-bottom: 1px solid #999999;
-  margin-bottom: 5px;
 }
-.header__title {
+.title {
   width: 90px;
   height: 17px;
   font-size: 13px;
-  font-weight: 700 bold;
+  font-weight: 700;
   color: #55b2d4;
 }
-.header__subtitle {
+.subtitle {
   width: 70px;
   height: 8px;
   font-size: 8px;
   font-weight: 400;
+  padding-left: 5px;
 }
-.header__body {
+.divideLine {
+  width: 100%;
+  border-top: 1px solid gray;
+  margin: 5px 0px;
+}
+.contents__body {
   width: 111px;
   height: 15px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
   font-size: 11px;
   font-weight: 400;
   font-style: normal;
@@ -59,31 +61,13 @@ body {
 .wrapper__body {
   width: 100%;
   height: 270px;
-}
-.body__title__wrapper {
-  width: 100%;
-  height: 20px;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  margin-bottom: 10px;
+  flex-direction: column;
 }
-.body__title {
-  width: 60px;
-  height: 17px;
-  font-size: 13px;
-  font-weight: 700 bold;
-  color: #55b2d4;
-}
-.body__subtitle {
-  width: 88px;
-  height: 8px;
-  font-size: 8px;
-  font-weight: 400;
-}
-.body__body {
+
+.video {
   width: 100%;
   height: 240px;
-  background-color: #c4c4c4;
+  background-color: #999999;
+  margin-top: 15px;
 }

@@ -9,10 +9,13 @@
 // 3. html의 결과 박스(id="result")의 내용을 결과값으로 바꿔준다
 
 function add() {
-  let input01 = parseInt(document.getElementById("a").value);
-  let input02 = parseInt(document.getElementById("b").value);
+  let inputA = parseInt(document.getElementById("a").value);
+  let inputB = parseInt(document.getElementById("b").value);
 
-  let addResult = input01 + input02;
+  let addResult = inputA + inputB;
+  let result = document.getElementById("result");
 
-  document.getElementById("result").innerText = addResult;
+  //   document.getElementById("result").innerText = addResult;
+
+  result.innerText = addResult;
 }

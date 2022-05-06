@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper {
+  width: 540px;
+  height: 960px;
+  border: 1px solid #aacdff;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 7px 7px 39px rgb(0, 104, 255, 0.25);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+h1 {
+  width: 380px;
+  height: 47px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #0068ff;
+  line-height: 47px;
+  text-align: left;
+}
+.contentWrapper {
+  width: 380px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.infoWrapper {
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.infoWrapper input {
+  width: 380px;
+  height: 60px;
+  border: 1px solid #d2d2d2;
+  border-radius: 7px;
+}
+.phoneWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+}
+.phoneWrapper input {
+  width: 100px;
+  height: 40px;
+  border: 1px solid #d2d2d2;
+  border-radius: 7px;
+  background-color: white;
+}
+.sendTokenWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+}
+.printToken {
+  width: 60px;
+  height: 27px;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #0068ff;
+  margin-right: 10px;
+}
+.sendToken {
+  width: 120px;
+  height: 40px;
+  background-color: white;
+  border: 1px solid #d2d2d2;
+  border-radius: 7px;
+  font-size: 16px;
+  color: #0068ff;
+  text-align: center;
+}
+.checkTokenWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+}
+.timer {
+  width: 60px;
+  height: 27px;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #0068ff;
+  margin-right: 10px;
+}
+.checkToken {
+  width: 120px;
+  height: 40px;
+  background-color: #0068ff;
+  border: 1px solid #d2d2d2;
+  border-radius: 7px;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+}
+.selectRegion {
+  width: 380px;
+  height: 60px;
+  background-color: white;
+  border: 1px solid #d2d2d2;
+  border-radius: 7px;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 5px 20px;
+}

@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapper__header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.wrapper__title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.title {
+  color: #55b2e4;
+  font-size: 13px;
+  font-weight: 700;
+}
+.subtitle {
+  font-size: 8px;
+  padding-left: 5px;
+}
+.line {
+  width: 100%;
+  border-top: 1px solid black;
+}
+.albumWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+.album {
+  width: 130px;
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+img {
+  width: 120px;
+  height: 120px;
+}
+.albumTitle {
+  width: 120px;
+  height: 15px;
+  font-size: 11px;
+  font-weight: 700;
+  text-align: center;
+  color: #0f465e;
+}
+.albumSubtitle {
+  width: 50px;
+  height: 13px;
+  font-size: 10px;
+  font-weight: 700;
+  text-align: center;
+  color: #999999;
+}
+.wrapper__body {
+  width: 100%;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+}
+.albumTable {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3px;
+}
+.first__tableLine {
+  width: 100%;
+  height: 20px;
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 2px 5px;
+}
+.checkbox {
+  width: 12px;
+  height: 12px;
+  background-color: #ffffff;
+  border: 1px solid #999999;
+}
+.number {
+  width: 20px;
+  height: 13px;
+  font-size: 10px;
+  color: #999999;
+}
+.first__songTitle {
+  width: 120px;
+  height: 13px;
+  font-size: 10px;
+  font-weight: 700;
+  color: #999999;
+}
+.first__artistName {
+  width: 80px;
+  height: 13px;
+  font-size: 10px;
+  font-weight: 700;
+  color: #999999;
+}
+.tableLine {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px dotted black;
+  padding: 2px 5px;
+}
+.songTitle {
+  width: 120px;
+  height: 13px;
+  font-size: 10px;
+  font-weight: 700;
+  color: #0f465e;
+}
+.artistName {
+  width: 80px;
+  height: 13px;
+  font-size: 10px;
+  font-weight: 700;
+  color: #0f465e;
+}
